@@ -13,7 +13,8 @@
     "artefacts": ["raw/BantuBinRed_m1pcv.nex"],
     "missing": {
         "data": "not available",
-        "cldf": "not available"
+        "cldf": "not available",
+        "characters": "not available"
     },
     "zenodo_concept_doi": null
 }
