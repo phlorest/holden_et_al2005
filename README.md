@@ -1,5 +1,7 @@
 # Phlorest phylogeny derived from Holden et al. 2005 'Comparison of Maximum Parsimony and Bayesian Bantu Language trees'
 
+[![CLDF validation](https://github.com/phlorest/holden_et_al2005/workflows/CLDF-validation/badge.svg)](https://github.com/phlorest/holden_et_al2005/actions?query=workflow%3ACLDF-validation)
+
 ## How to cite
 
 If you use these data please cite

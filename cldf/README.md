@@ -4,6 +4,8 @@
 
 **CLDF Metadata**: [Generic-metadata.json](./Generic-metadata.json)
 
+**Sources**: [sources.bib](./sources.bib)
+
 property | value
  --- | ---
 [dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Holden CJ, Meade A, & Pagel M. 2005. Comparison of Maximum Parsimony and Bayesian Bantu Language trees. In R Mace, CJ Holden & SJ Shennan (Eds.) The Evolution of Cultural Diversity: A Phylogenetic Approach (pp. 53–66). UCL Press.
@@ -11,7 +13,8 @@ property | value
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://www.taylorfrancis.com/chapters/edit/10.4324/9781315418612-5/comparison-maximum-parsimony-bayesian-bantu-language-trees-holden-clare-meade-andrew-pagel-mark
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dc:subject](http://purl.org/dc/terms/subject) | <dl><dt>family</dt><dd>Bantu</dd><dt>analysis</dt><dd>bayesian</dd><dt>scaling</dt><dd>none</dd></dl>
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="data.nex">data.nex </a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.0">Glottolog v5.0</a></li></ol>
+[dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/phlorest/holden_et_al2005
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="data.nex">data.nex </a></li><li><a href="https://github.com/phlorest/holden_et_al2005/tree/1823aa2">phlorest/holden_et_al2005 1823aa2</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.0">Glottolog v5.0</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.11.1</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | holden_et_al2005
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
@@ -60,7 +63,7 @@ Name/Property | Datatype | Description
 [Tree_Type](http://cldf.clld.org/v1.0/terms.rdf#treeType) | `string`<br>Valid choices:<br> `summary` `sample` | Whether the tree is a summary (or consensus) tree, i.e. can be analysed in isolation, or whether it is a sample, resulting from a method that creates multiple trees
 [Tree_Branch_Length_Unit](http://cldf.clld.org/v1.0/terms.rdf#treeBranchLengthUnit) | `string`<br>Valid choices:<br> `change` `substitutions` `years` `centuries` `millennia` | The unit used to measure evolutionary time in phylogenetic trees.
 [Media_ID](http://cldf.clld.org/v1.0/terms.rdf#mediaReference) | `string` | References a file containing a Newick representation of the tree, labeled with identifiers as described in the LanguageTable (the [Media_Type](https://cldf.clld.org/v1.0/terms.html#mediaType) column of this table should provide enough information to chose the appropriate tool to read the newick)<br>References [media.csv::ID](#table-mediacsv)
-[Source](http://cldf.clld.org/v1.0/terms.rdf#source) | list of `string` (separated by `;`) | 
+[Source](http://cldf.clld.org/v1.0/terms.rdf#source) | list of `string` (separated by `;`) | References [sources.bib::BibTeX-key](./sources.bib)
 
 ## <a name="table-mediacsv"></a>Table [media.csv](./media.csv)
 

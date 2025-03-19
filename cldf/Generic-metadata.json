@@ -9,18 +9,26 @@
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Generic",
     "dc:identifier": "https://www.taylorfrancis.com/chapters/edit/10.4324/9781315418612-5/comparison-maximum-parsimony-bayesian-bantu-language-trees-holden-clare-meade-andrew-pagel-mark",
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
+    "dc:source": "sources.bib",
     "dc:subject": {
         "family": "Bantu",
         "analysis": "bayesian",
         "scaling": "none"
     },
     "dc:title": "Phlorest phylogeny derived from Holden et al. 2005 'Comparison of Maximum Parsimony and Bayesian Bantu Language trees'",
+    "dcat:accessURL": "https://github.com/phlorest/holden_et_al2005",
     "prov:wasDerivedFrom": [
         {
             "rdf:about": "data.nex",
             "rdf:type": "prov:Entity",
             "dc:description": "The data underlying the analysis which created the phylogeny",
             "dc:format": "https://en.wikipedia.org/wiki/Nexus_file"
+        },
+        {
+            "rdf:about": "https://github.com/phlorest/holden_et_al2005",
+            "rdf:type": "prov:Entity",
+            "dc:created": "1823aa2",
+            "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
