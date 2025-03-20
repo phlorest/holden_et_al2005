@@ -666,14 +666,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          37.4118,
-          -11.7794
+          35.459,
+          -11.779
         ]
       },
       "properties": {
         "Name": "NgoniS45",
-        "Glottocode": "ngon1269",
-        "Glottolog_Name": "Tanzania-Mozambique Ngoni"
+        "Glottocode": "tanz1241",
+        "Glottolog_Name": "Tanzanian Ngoni"
       }
     },
     {

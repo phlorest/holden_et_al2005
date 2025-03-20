@@ -27,7 +27,7 @@
         {
             "rdf:about": "https://github.com/phlorest/holden_et_al2005",
             "rdf:type": "prov:Entity",
-            "dc:created": "1823aa2",
+            "dc:created": "cdee132",
             "dc:title": "Repository"
         },
         {
@@ -40,7 +40,7 @@
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.11.1"
+            "dc:description": "3.13.1"
         },
         {
             "dc:title": "python-packages",
