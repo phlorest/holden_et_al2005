@@ -1,0 +1,34 @@
+{
+    "creators": [
+        {
+            "name": "Claire J. Holden"
+        },
+        {
+            "name": "Andrew Meade"
+        },
+        {
+            "name": "Mark Pagel"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Simon J. Greenhill",
+            "type": "Editor"
+        },
+        {
+            "name": "Robert Forkel",
+            "type": "Editor"
+        }
+    ],
+    "title": "Phlorest phylogeny derived from Holden et al. 2005 'Comparison of Maximum Parsimony and Bayesian Bantu Language trees'",
+    "access_right": "open",
+    "keywords": [
+        "cldf:Generic",
+        "linguistics"
+    ],
+    "upload_type": "dataset",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Holden CJ, Meade A, &amp; Pagel M. 2005. Comparison of Maximum Parsimony and Bayesian Bantu Language trees. In R Mace, CJ Holden &amp; SJ Shennan (Eds.) The Evolution of Cultural Diversity: A Phylogenetic Approach (pp. 53\u201366). UCL Press.</p>\n</blockquote>",
+    "license": {
+        "id": "CC-BY-4.0"
+    }
+}
