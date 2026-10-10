@@ -4,7 +4,7 @@ babel==2.18.0
 bibtexparser==2.1.0
 certifi==2026.7.22
 cldfbench==2.0.1
--e git+https://github.com/phlorest/holden_et_al2005.git@0df97415bd6fcd04b2299ec7ba8bfe73023c8115#egg=cldfbench_holden_et_al2005
+-e git+https://github.com/phlorest/holden_et_al2005.git@935b9d283e761f29aa633dfd1f01edd5d69e1a42#egg=cldfbench_holden_et_al2005
 cldfcatalog==1.7.0
 cldfviz==2.0.0
 cldfzenodo==3.0.0
