@@ -27,20 +27,20 @@
         {
             "rdf:about": "https://github.com/phlorest/holden_et_al2005",
             "rdf:type": "prov:Entity",
-            "dc:created": "de94cef",
+            "dc:created": "v1.0-4-g0df9741",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v5.2",
+            "dc:created": "v5.3",
             "dc:title": "Glottolog"
         }
     ],
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.12.3"
+            "dc:description": "3.14.8"
         },
         {
             "dc:title": "python-packages",
